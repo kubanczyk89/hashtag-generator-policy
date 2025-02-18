@@ -1,0 +1,22 @@
+@import "{{ site.theme }}";
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #405de6;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.last-updated {
+  color: #666;
+  font-style: italic;
+} 
